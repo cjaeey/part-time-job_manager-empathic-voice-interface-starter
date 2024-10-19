@@ -43,9 +43,6 @@ export default function Tips() {
               <li className="nav-item">
                 <Link className="nav-link active" href="/tips">General Tips</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/contact">Contact</Link>
-              </li>
             </ul>
           </div>
         </div>

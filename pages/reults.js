@@ -59,9 +59,6 @@ export default function Results() {
               <li className="nav-item">
                 <Link className="nav-link" href="/tips">General Tips</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/contact">Contact</Link>
-              </li>
             </ul>
           </div>
         </div>
