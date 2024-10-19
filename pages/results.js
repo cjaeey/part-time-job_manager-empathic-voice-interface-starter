@@ -66,24 +66,9 @@ export default function Results() {
 
       <div className="container text-center mt-5">
         <h1>Your Personal Interview Results</h1>
-        <p>Enter your speaking score and get personalized feedback.</p>
+        <p>Compare your scores to the chart and get personalized feedback.</p>
 
-        <h2>Your Score</h2>
-        <input
-          type="number"
-          id="scoreInput"
-          className="form-control"
-          min="0"
-          max="10"
-          placeholder="Enter your score (0-10)"
-          style={{ width: '300px', margin: '0 auto' }}
-          value={score}
-          onChange={(e) => setScore(e.target.value)}
-        />
-        <button className="btn btn-secondary mt-3" onClick={evaluateScore}>
-          Submit Score
-        </button>
-
+        <h2>Your Evaluation</h2>
         {feedback && (
           <div id="feedback" className="feedback mt-4">{feedback}</div>
         )}
