@@ -75,19 +75,27 @@ export default function Home() {
         <button id="talkToAI" className="btn btn-primary hover-effect" onClick={talkToAI}>
           Talk to AI
         </button>
-
+        <br></br>
         <h3 className="mt-5">About</h3>
+      
         <p>
           Struggling with getting job interviews? Try our interview simulator. See
           if you can pass the challenge. Speak without stuttering (no saying "um",
-          "but", "uh", "like", "well", "and yeah"). Speak fluidly.
+          "but", "uh", "like", "well", "and yeah"). Speak fluidly. Talk to our sample model.
+          We decided to create this due to the amount of recruitments people are aiming for.
+          Job interviews can be super nerve-wracking! That’s why we created 
+          LockedIn, (Inspired by Linkedin) an AI coach powered by Hume AI that lets you practice with a virtual interviewer. 
+          Our platform makes it easy and fun to sharpen your skills, get feedback, and build your 
+          confidence—all while simulating real interview situations. We believe everyone deserves 
+          a shot at their dream job, and with our AI-powered coach, we’re here to help you get there. 
+          Let’s ace those interviews together!
         </p>
 
         <h3 className="mt-5">How to Use</h3>
         <ol className="text-start mx-auto" style={{ maxWidth: '400px' }}>
-          <li>Watch the video/read the article</li>
-          <li>Enter your score in personal feedback</li>
-          <li>Submit your score</li>
+          <li>Watch the video</li>
+          <li>Practice an interview with our Sample Model</li>
+          <li>Compare your score</li>
           <li>Use results to engrain into your subconscious and try again</li>
         </ol>
 

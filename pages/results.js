@@ -1,7 +1,7 @@
-// pages/results.js
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
+import Partners from '../components/Partners'; // Import the Partners component
 
 export default function Results() {
   const [score, setScore] = useState('');
@@ -22,7 +22,7 @@ export default function Results() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/style.css" />
         <link
@@ -77,6 +77,9 @@ export default function Results() {
           alt="Personal Results" 
           className="result-image"
         />
+
+        {/* Render Partners component below the image */}
+        <Partners />
       </div>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
