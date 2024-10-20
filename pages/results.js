@@ -73,13 +73,13 @@ export default function Results() {
           <div id="feedback" className="feedback mt-4">{feedback}</div>
         )}
         <img 
-          src="https://images.javatpoint.com/javascriptpages/images/random-image-generator-in-javascript7.png" 
+          src="1.jpg" 
           alt="Personal Results" 
           className="result-image"
         />
-
         {/* Render Partners component below the image */}
         <Partners />
+        <h2>click one</h2>
       </div>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
