@@ -1,9 +1,6 @@
 <div align="center">
-  <img src="https://storage.googleapis.com/hume-public-logos/hume/hume-banner.png">
-  <h1>EVI Next.js App Router Example</h1>
+  <h1>Voice Interface Example</h1>
 </div>
-
-![preview.png](preview.png)
 
 ## Overview
 
@@ -15,11 +12,17 @@ Click the button below to deploy this example project with Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhumeai%2Fhume-evi-next-js-starter&env=HUME_API_KEY,HUME_SECRET_KEY)
 
-Below are the steps to completing deployment:
+Below are the steps to completing the process to start:
 
-1. Create a Git Repository for your project.
+1. Clone Git Repository
 2. Provide the required environment variables. To get your API key and Client Secret key, log into the portal and visit the [API keys page](https://beta.hume.ai/settings/keys).
+3. Create a .env file that includes the API & Client Secret Key & Config ID Entered as below:
+HUME_API_KEY=
+HUME_SECRET_KEY=
+NEXT_PUBLIC_HUME_CONFIG_ID=
+4. Open Terminal and type pnpm i
+5. On the same Terminal type pnpm dev and you're all set.
 
 ## Support
 
-If you have questions, require assistance, or wish to engage in discussions pertaining to this starter template, [please reach out to us on Discord](https://link.hume.ai/discord).
+If you have questions, require assistance, or wish to engage in discussions pertaining to this starter template, [please reach out to Hume on Discord](https://link.hume.ai/discord).
