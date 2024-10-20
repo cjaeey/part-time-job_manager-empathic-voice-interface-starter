@@ -1,30 +1,30 @@
 import React from 'react';
-import './styles.css';
+import './styles.css'; // Import the CSS file
 
 const partners = [
   {
     id: 1,
     name: 'Confusion',
-    image: './assets/01.webp',
-    link: 'https://yli.org/',
+    image: '/5.jpg', // Image paths from the public folder
+    link: 'https://www.canva.com/design/DAGUFNsm9pg/VEyhceBoxcQPPL3hVhOONw/view?utm_content=DAGUFNsm9pg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
   },
   {
     id: 2,
     name: 'Angry',
-    image: './assets/02.jpg',
-    link: 'https://www.samoansolutions.org/',
+    image: '/3.jpg',
+    link: 'https://www.canva.com/design/DAGUFJ62rxs/hWcb55hhnGoaCgUmNIoUPA/view?utm_content=DAGUFJ62rxs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
   },
   {
     id: 3,
     name: 'Anxious',
-    image: './assets/04.jpg',
-    link: 'https://www.kapwacafe.org/',
+    image: '/2.jpg',
+    link: 'https://www.canva.com/design/DAGUFKuWplc/jLh3RJCNVAptfiX28wWfWQ/view?utm_content=DAGUFKuWplc&utm_campaign=designshare&utm_medium=link&utm_source=editor',
   },
   {
     id: 4,
     name: 'Awkward',
-    image: './assets/05.jpg',
-    link: 'https://www.smcoe.org/',
+    image: '/4.jpg',
+    link: 'https://www.canva.com/design/DAGUFLOA8-c/ltc5NtLskWXMh6v3iW5dyg/view?utm_content=DAGUFLOA8-c&utm_campaign=designshare&utm_medium=link&utm_source=editor',
   },
 ];
 
